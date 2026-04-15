@@ -11,9 +11,9 @@ from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
 app = Flask(__name__)
 
 # ================== 配置区（必须修改） ==================
-APPID = "你的AppID"          # 从平台复制
-SECRET = "你的Secret"        # 从平台复制
-TOKEN = "你的Token"          # 从平台复制（部分接口需要）
+APPID = "1903839196"          # 从平台复制
+SECRET = "ADHLQVbhow4DMWgr2ERes6Laq6NewFYs"        # 从平台复制
+#TOKEN = "暂时不需要"          # 从平台复制
 ELECTRICITY_URL = "https://epay.sues.edu.cn/epay/h5/eleresult?sysid=4&roomid=7009&areaid=102&buildid=32"
 # ======================================================
 
