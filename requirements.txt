@@ -1,3 +1,3 @@
 flask
 requests
-ed25519
+cryptography
