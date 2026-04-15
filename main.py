@@ -6,7 +6,7 @@ import hashlib
 import hmac
 from flask import Flask, request, jsonify
 from datetime import datetime
-import ed25519  # pip install ed25519
+from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
 
 app = Flask(__name__)
 
